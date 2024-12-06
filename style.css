@@ -1,0 +1,153 @@
+/* Estilos globais */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5; /* Fundo claro para contraste */
+    color: #333333; /* Texto em cinza escuro para boa leitura */
+    line-height: 1.6;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background: linear-gradient(to right, #111111, #770000); /* Preto suave para vermelho escuro */
+    color: #ffffff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #FF4D4D; /* Destaque suave ao passar o mouse */
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to bottom, #ffffff, #ffe6e6); /* Degradê branco para rosa claro */
+    color: #770000; /* Texto vermelho escuro */
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    background: #770000; /* Vermelho escuro */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .hero button:hover {
+    background: #FF4D4D; /* Vermelho claro */
+  }
+  
+  /* Sobre Nós */
+  .about {
+    padding: 50px 20px;
+    background: #ffffff;
+    color: #333333;
+    text-align: center;
+  }
+  
+  /* Planos */
+  .plans {
+    padding: 50px 20px;
+    background: #f5f5f5;
+    text-align: center;
+  }
+  
+  .plan {
+    background: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plan h3 {
+    color: #770000;
+  }
+  
+  .plan p {
+    margin: 10px 0;
+    color: #555555;
+  }
+  
+  /* Contato */
+  .contact {
+    padding: 50px 20px;
+    background: #ffffff;
+    text-align: center;
+  }
+  
+  .contact form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact input,
+  .contact textarea,
+  .contact button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact button {
+    background: #770000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact button:hover {
+    background: #FF4D4D;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #111111;
+    color: #ffffff;
+    font-size: 14px;
+  }  

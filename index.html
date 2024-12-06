@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academia Constante</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Academia Constante</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Transforme seu corpo, transforme sua vida!</h2>
+    <p>A Academia Constante é o lugar ideal para você alcançar seus objetivos de saúde e bem-estar.</p>
+    <button onclick="scrollToSection('#planos')">Conheça nossos planos</button>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="container">
+      <h2>Sobre Nós</h2>
+      <p>Com equipamentos modernos, instrutores experientes e um ambiente acolhedor, a Academia Constante é seu parceiro na busca pela qualidade de vida.</p>
+    </div>
+  </section>
+
+  <section id="planos" class="plans">
+    <div class="container">
+      <h2>Planos e Preços</h2>
+      <div class="plan">
+        <h3>Plano Mesal</h3>
+        <p>R$ 120,00 / 1 mês.</p>
+        <p></p>
+      </div>
+      <div class="plan">
+        <h3>Plano Trimestral</h3>
+        <p>R$ 73,90 / 3 meses.</p>
+        <p></p>
+      </div>
+      <div class="plan">
+        <h3>Plano Semestral</h3>
+        <p>R$ 64,90 / 6 meses.</p>
+        <p></p>
+      </div>
+      <div class="plan">
+        <h3>Plano Anual</h3>
+        <p>R$ 49,90 / 12 meses.</p>
+        <p></p>
+      </div>
+      <div class="plan">
+        <h3>Plano Anual Overall</h3>
+        <p>R$ 65,00 / 12 meses.</p>
+        <p>Inclui primeira avaliação física gratuita. <br> Desconto em suplementações.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <form id="contact-form">
+        <input type="text" id="nome" placeholder="Seu Nome" required>
+        <input type="email" id="email" placeholder="Seu E-mail" required>
+        <textarea id="mensagem" placeholder="Sua Mensagem" rows="4" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Academia Constante. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
